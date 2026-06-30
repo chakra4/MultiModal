@@ -1,0 +1,21 @@
+[project]
+name = "multimodalsearch"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12.9"
+dependencies = [
+    "chromadb>=1.5.9",
+    "ipykernel>=7.3.0",
+    "jupyter>=1.1.1",
+    "matplotlib>=3.11.0",
+    "moviepy>=2.2.1",
+    "openai>=2.43.0",
+    "openai-whisper>=20250625",
+    "opencv-python>=4.13.0.92",
+    "pillow>=11.3.0",
+    "sentence-transformers>=5.6.0",
+    "torch>=2.12.1",
+    "torchvision>=0.27.1",
+    "yt-dlp>=2026.6.9",
+]
