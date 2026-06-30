@@ -4,10 +4,10 @@
 
 1) MultiModalSearch 
 
-video -> image frame ->  clip embedding
+Video -> Image Frame ->  Clip Embedding (multi-modal) <- Text Search 
 
-Video -> whisper -> transcript -> text embedding
+Video -> Whisper -> Transcript -> Text Embedding <- Text Search
 
 3) Video Segment
 
-Video -> Video Segment -> VLM -> Generates Transcript, Scene description -> Text Embedding
+Video -> Video Segment -> VLM -> Generates Transcript, Scene description -> Text Embedding <- Text Search
